@@ -1,0 +1,21 @@
+{
+    "name": "ahada/wp",
+    "description": "Create object oriented WordPress theme developed",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Ahad Abbasi",
+            "homepage": "http://ahadabbasi.ir"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ahada\\WordPress\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    }
+}
